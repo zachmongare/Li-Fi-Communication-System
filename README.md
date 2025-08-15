@@ -42,9 +42,16 @@ Follow these steps to assemble the system:
    git clone https://github.com/zachmongare/Li-Fi-Communication-System.git
    cd Li-Fi-Communication-System
 2. **Assembly:**
-   - Build the transmitter circuit as shown in ![schematics/transmitter_schematic.kicad_sch](schematics/transmitter_schematic.svg).
-   - Build the receiver circuit as shown in ![schematics/receiver_schematic.kicad_sch](schematics/receiver_schematic.svg).
-3. **Upload the Code:**
+   - Build the transmitter circuit as shown:
+   <p align="center">
+   <img src="schematics/transmitter_schematic.png" alt="transmitter schematic"  />
+   </p>
+   
+   - Build the receiver circuit as shown:
+   <p align="center">
+   <img src="schematics/receiver_schematic.png" alt="receiver schematic"  />
+   </p>
+   
    - Connect the transmitter Arduino Uno R3 to your PC and open the Arduino IDE.
    - Select the correct board and port and upload the code in [code/transmitter.ino](code/transmitter.ino).
    - Repeat the above steps for the receiver Arduino Uno R3 and upload the code in [code/receiver.ino](code/receiver.ino).
